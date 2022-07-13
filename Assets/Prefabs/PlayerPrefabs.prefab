@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2438812697758085441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5547749343898505628}
+  - component: {fileID: 1030743535033527340}
+  - component: {fileID: -4464296996959181946}
+  m_Layer: 0
+  m_Name: PlayerPrefabs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5547749343898505628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2438812697758085441}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1030743535033527340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2438812697758085441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4649eb1b049e1044ba7f9df5dc4a50f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  catPrefabs:
+  - {fileID: 1172430422992229082, guid: ad0ff0ae2aaa37b49b31f0cfdd630e19, type: 3}
+  - {fileID: 1172430422992229082, guid: 79ebef2682516d840b162139e5d02e12, type: 3}
+  - {fileID: 1172430422992229082, guid: 54a4fd9b6aaa6c34da45fd10d9ad15be, type: 3}
+  - {fileID: 1172430422992229082, guid: 0b5d983ffdb13c5408b11c0fece8e8df, type: 3}
+--- !u!114 &-4464296996959181946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2438812697758085441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: e193c7ca5278c0d4488a4ec695cf09de, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c30ec5f3-bc21-4636-bc5d-d64bd9d936dd
+    m_ActionName: Gameplay/Move[/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/up,/XInputControllerWindows/dpad/up,/XInputControllerWindows/dpad/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/dpad/down,/XInputControllerWindows/dpad/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/dpad/left,/XInputControllerWindows/dpad/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows/leftStick/right,/XInputControllerWindows/dpad/right,/XInputControllerWindows/dpad/right,/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f9f0994f-51b6-441c-9019-f17ed7d85cef
+    m_ActionName: Gameplay/Jump[/XInputControllerWindows/buttonSouth,/XInputControllerWindows/buttonSouth,/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a0ed0ab0-171a-4827-addd-bf00d0af2271
+    m_ActionName: Gameplay/SprintStart[/XInputControllerWindows/leftTrigger,/XInputControllerWindows/leftTrigger,/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 185d7735-48f6-4f2a-8b83-874588250e51
+    m_ActionName: Gameplay/SprintEnd[/XInputControllerWindows/leftTrigger,/XInputControllerWindows/leftTrigger,/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 11e7f671-9338-4377-bee9-04ac2975d78f
+    m_ActionName: Gameplay/Defend[/XInputControllerWindows/buttonEast,/XInputControllerWindows/buttonEast,/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: deaa82fe-0adf-4290-ab8a-ac2c64b20725
+    m_ActionName: Gameplay/Basic Attack[/XInputControllerWindows/buttonWest,/XInputControllerWindows/buttonWest,/Keyboard/u]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f77229b1-1c05-4aab-b269-3354a5d39d60
+    m_ActionName: Gameplay/Special Attack[/XInputControllerWindows/buttonNorth,/XInputControllerWindows/buttonNorth,/Keyboard/i]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e361d7c3-4392-4dbf-bceb-b10efa248f32
+    m_ActionName: Gameplay/Super Attack[/XInputControllerWindows/rightTrigger,/XInputControllerWindows/rightTrigger,/Keyboard/o]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1030743535033527340}
+        m_TargetAssemblyTypeName: PlayerPrefabs, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 17d0834d-a2ca-4214-bddc-81741db217fa
+    m_ActionName: Gameplay/Quit[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1030743535033527340}
+        m_TargetAssemblyTypeName: PlayerPrefabs, Assembly-CSharp
+        m_MethodName: LeftArrow
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 528b8f88-0883-4421-8bd5-34132b8f5d1f
+    m_ActionName: Gameplay/Left Arrow[/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/dpad/left,/XInputControllerWindows/dpad/left,/Keyboard/a]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1030743535033527340}
+        m_TargetAssemblyTypeName: PlayerPrefabs, Assembly-CSharp
+        m_MethodName: RightArrow
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: da785159-ac7f-49a2-8adc-62d664d87116
+    m_ActionName: Gameplay/Right Arrow[/XInputControllerWindows/leftStick/right,/XInputControllerWindows/leftStick/right,/XInputControllerWindows/dpad/right,/XInputControllerWindows/dpad/right,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1030743535033527340}
+        m_TargetAssemblyTypeName: PlayerPrefabs, Assembly-CSharp
+        m_MethodName: Confirm
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 975c6895-62cb-4784-b76a-504d6d94ff7f
+    m_ActionName: Gameplay/Confirm[/XInputControllerWindows/start,/XInputControllerWindows/start,/XInputControllerWindows/buttonSouth,/XInputControllerWindows/buttonSouth,/Keyboard/enter,/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c65291a0-902b-444f-b9cf-40483d853a04
+    m_ActionName: Gameplay/Leave[/XInputControllerWindows/select,/XInputControllerWindows/select]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Gameplay
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
